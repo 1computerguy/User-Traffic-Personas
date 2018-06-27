@@ -1,0 +1,28 @@
+component,summary
+aircraft temperatures,Fixes
+Develop radar imagery MTIFFS,Future Development
+Revise multiple fix pop-up box to display the entire fix information.,Fixes
+Add capability to build an animated loop of geo-located imagery overlaid on best track,Fields / Data / Imagery
+Wind Probability Code Update,Messages and Products
+Intensity consensus evaluation,ATCF devel collaboration
+WP Track consensus review,Forecasts / Aids
+Develop a wind radii consensus aid.,Wind Radii
+Have fixes displayed to the nearest hundredth of a degree (ex: 30.25N 150.33E) when “Fixes -> List Fixes” is selected or when a fix is clicked on in ATCF.,Fixes
+"Incorporate full fix preferences into ""Display Fixes by Site"" dialog.",Fixes
+"Develop an ATCF map that allows the display of fixes, objective aids, and best tracks across 0 degrees longitude.",Display
+"Describe, issue forecasts for and produce statistics on Monsoon Depression storm type.",Best Track
+Give CPHC the ability to do automated fix ingest by connecting to the opah server at NCEP,Fixes
+Develop method to not publish the renumbering and/or naming of an invest or cyclone ... until the release of the TCM,Coordination
+Develop capability to save and transmit advisory text products in mixed case,Messages and Products
+Correct issue with improper conversion to local times in special advisories,Messages and Products
+Improve visibility of lat/lon within rebest dialog box.,Best Track
+Develop capability to make wind radii forecasts out to 7 days.,Wind Radii
+Add ROCI and RMW to list best track output window.,Best Track
+Make easier to add in new parameter to fasDB (acceptList.txt),Fields / Data / Imagery
+Create ingest/display capability for COAMPS-TC/GFDN movable grids,Fields / Data / Imagery
+Modify the cpa and cpa_btrk output to contain the intensity at the CPA time.,Messages and Products
+"Edit Microwave -SSMI, TRMM dialog",Fixes
+overlaid best track positions,Best Track
+Handle post-tropical naming in warning generation and GCCS-J,Messages and Products
+"Allow tracker data that arrives after the renumber, with old invest # ID,to be ingested.",Forecasts / Aids
+New basin that crosses 0W,Display

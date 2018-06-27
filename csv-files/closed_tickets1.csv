@@ -1,0 +1,15 @@
+component,summary
+Enhance selection of satellite imagery to speed up analysis and improve TDO understanding of system continuity over time.,Fields / Data / Imagery
+RSCAT vectors,ATCF devel collaboration
+64-bit builds on virtual machines,General / System config
+"GFDL, HWRF and AVNO analysis fixes",Best Track
+Dvorak Wind Radii,ATCF devel collaboration
+"CARQ display on map, time vs intensity, radii vs intensity",Compute / Bogus
+"The bogus priority panel is very full, place 80 series last in the sort, or add a check box for show-80-series.",Compute / Bogus
+Research accuracy of TC structure numerical analysis for use in tau-0 wind radii determ,Desired Capabilities
+Update output from intrfcst to show when a 2nd interpolation version of a tracker was used.,Forecasts / Aids
+Limit objective best track wind radii to partial best track display,Best Track
+Obtain 64-bit version of XVT libraries.,Coordination
+"Create a ""check probability data"" function.",General / System config
+Develop a method to display the list of GPCE terciles ... to support generation of a cone graphic,Forecasts / Aids
+"Flag fixes from time v intensity and time v radii, radial graph",Fixes

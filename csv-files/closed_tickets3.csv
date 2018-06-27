@@ -1,0 +1,62 @@
+component,description
+"Review CONW and make recommendations for changes.  Nothing major this year, basically recommend replace GFNI with GHMI and remove JENI
+
+         00     12     24     36     48     72   96     120           
+JTWC     8.8   33.3   51.0   67.1   85.8  136.7  181.6  242.6 
+CONW     9.5   30.7   48.6   64.7   83.8  130.3  165.8  210.8
+TES9     9.5   29.9   46.0   60.2   77.5  120.8  163.3  220.9
+#CASES   390   364    328    290    258   206    162    122        ",Forecasts / Aids
+"Develop a wind radii consensus aid. [NHC]{NRL}
+
+Initial version developed and vetted on 3 years of data",Wind Radii
+"Have fixes displayed to the nearest hundredth of a degree (ex: 30.25N 150.33E) when “Fixes -> List Fixes” is selected or when a fix is clicked on in ATCF. Currently fixes are displayed only to the nearest tenth, and since we are now entering fixes to the nearest hundredth it would be helpful to see this when fixes are being listed. [JTWC]{NRL}",Fixes
+"Incorporate full fix preference capability into the ""Display Fixes by Site"" dialog (called from Re-Best / Fix Options).  Specifically would like to have the individual time ranges for each option (highlight fixes, limit fix display, confidence circles ...).  Currently the individual time ranges set in Tools / Preferences get overridden by the single time range in the ""Display Fixes by Site"" dialog.
+
+[NRL] {JTWC}",Fixes
+"Develop an ATCF map that allows the display of fixes, objective aids, and best tracks across 0 degrees longitude and allows a forecast to be made across 0 degrees longitude. [NHC]{NRL} Prepare-Compute issue still remaining to be addressed.",Display
+"Describe, issue forecasts for and produce statistics on Monsoon Depression storm type. [JTWC]{NRL} Monsoon Depression storm type “MD”.
+",Best Track
+Give CPHC the ability to do automated fix ingest by connecting to the opah server at NCEP. [NHC]{NHC},Fixes
+"Develop method to not publish the renumbering and/or naming of an invest or cyclone to the public ATCF ftp decks or the moonfish server until the release of the TCM 
+[NHC] {NRL/NHC}
+Monica will modify cron that posts to NHC public ftp server.",Coordination
+"Develop the capability to save and transmit advisory text products in mixed case 
+[NHC] {NHC}. 
+NHC advisory generation code (Craig).
+2013 ATCF meeting: the decision is to go with mixed case.
+
+There are probably places in advisory comp that also change to upper case.
+
+
+Hi Buck,
+
+A quick question, if you know the answer off-hand.  We're considering issuing our Tropical Cyclone Discussions with mixed case letters.  (NOT EVERYONE LOVES ALL CAPS!) We use the ATCF to compose the TCD, which then sends it over to AWIPS for dissemination.  The ATCF automatically converts the text to all caps, even if the hurricane forecaster types in mixed case.  Would you know if it's an easy adjustment to allow mixed case, or is this a quite substantial project?  (Mike Brennan is likely to address it here, but hasn't scoped it out yet.)
+
+Best regards,
+chris
+**********************************************************************
+Chris Landsea
+Science and Operations Officer
+NOAA/NWS/NCEP/National Hurricane Center
+11691 S.W. 17th Street
+Miami, Florida 33165-2149
+Chris.Landsea@noaa.gov P:305-229-4446
+**********************************************************************
+",Messages and Products
+"Correct issue with improper conversion to local times in special advisories.[[BR]]
+[[BR]]
+[NHC/CPHC] {NHC} [[BR]]",Messages and Products
+"Improve visibility of lat/lon within rebest dialog box. [JTWC] {NRL} 
+Dialog box is already full, but perhaps you could add the BT lat lon in the table at the bottom of the dialog in lieu of central pressure and Obj Track Intensity (pending OK from NHC).
+
+01/09/2014 email from Mike Brennan  ---    
+We have at least a couple people who have already chimed in that they use the central pressure information there.  Is there another way we can squeeze the lat/lon in?  Can we get rid of the ""kts"" for the intensity column?  What about losing the first two digits of the year in the DTG?
+Mike",Best Track
+Develop capability to make wind radii forecasts out to 7 days. [ALL] {NRL} For development of extended-range wind radii guidance. ,Wind Radii
+"Add ROCI and RMW to list best track output window.
+[ALL]  {NRL}",Best Track
+Make easier to add in new parameter to fasDB (acceptList.txt) [NRL] {NRL},Fields / Data / Imagery
+"Create ingest/display capability for COAMPS-TC/GFDN movable grids [[BR]]
+[[BR]]
+[NRL] {NRL/FNMOC} [[BR]]  NRL waiting for data from FNMOC for T&E.",Fields / Data / Imagery
+Modify the cpa and cpa_btrk output to contain the intensity at the CPA time.,Messages and Products
