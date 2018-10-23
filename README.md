@@ -2,7 +2,7 @@
 User Traffic based on personas in a CSV that outlines what user activities should be performed by each user.
 
 #### Setup Procedures:
-  - Download all files to the c:\scripts directory (hard-coded directory path requires that directory location)
+  - Download all files to the c:\scripts directory (hard-coded directory path currently used in the script)
   - Extract the user-activity-data-files.7z to the same c:\scripts directory
   - Disable PowerShell script execution limitations (this will vary depending on Windows version)
 
