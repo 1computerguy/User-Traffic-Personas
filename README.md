@@ -14,3 +14,4 @@ User Traffic based on personas in a CSV that outlines what user activities shoul
   - Add more realistic data corpus for message (email and document) content
     - Possibly use something like a Reddit chatbot
     - Consider some form of dynamic data
+    - Pull/push data from/to file share instead of accessing all data locally in the c:\scripts\documents directory
